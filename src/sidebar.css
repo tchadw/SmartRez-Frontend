@@ -1,0 +1,74 @@
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  background: rgb(0, 106, 170);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 106, 170, 1) 0%,
+    rgba(0, 148, 192, 1) 100%
+  );
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#side-nav-item {
+  background-color: transparent !important;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#sidebar_icon {
+  width: 25px;
+  margin-right: 1em;
+}
+
+#side-nav-header {
+  color: #fff;
+}
+
+#app_name {
+  text-align: center;
+  font-size: 1.1em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}

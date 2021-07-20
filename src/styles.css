@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* Global Settings */
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.layout-container {
+  background-color: #f6f8fa;
+}
+
+.layout-children {
+  padding: 0px 0px;
+}
+
+/* Dashboard */
+
+.dashboard-welcomer {
+  background-color: #fff;
+  padding: 30px 0px;
+  margin: auto auto 60px auto;
+}
+
+.MyInfoHeader {
+  margin-bottom: 30px;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#avatar {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.social-icons-box {
+  float: right;
+}
+
+.social-icons {
+  width: 48px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.dashboard-options-row {
+  margin: auto auto 30px auto;
+}
+
+.dashboard-icon {
+  width: 100px;
+  margin: auto auto 15px auto;
+}
+
+.dashboard-btn {
+  background: #006cab !important;
+  border-width: 0px !important;
+}
+
+#menu-toggle {
+  background: #006cab !important;
+  border-width: 0px !important;
+}
+
+.edit-btn {
+  background: #006cab !important;
+  border-width: 0px !important;
+  color: #fff !important;
+}
+
+.edit-btn-text {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #fff;
+}
+
+.edit-exp-btn-text {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.edit-icon {
+  width: 1.5em;
+  margin-left: 0.5em;
+}
+
+.edit-exp-icon {
+  width: 1.2em;
+  margin-left: 0.4em;
+  margin-bottom: 3px;
+}
+
+/* Experience */
+
+.experienceBox {
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.start-end-dates {
+  color: #4e4e4e;
+  font-size: 0.8em;
+  margin: auto auto 5px auto;
+}
+
+.exp-title {
+  margin: auto auto 30px auto;
+  color: #006cab;
+}
+
+.job-title {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.company-details {
+  font-size: 1em;
+  font-weight: 400;
+}
